@@ -9,7 +9,7 @@ video {
   }
    */
 .hero-container {
-    background: url('../header.png') center center/cover no-repeat;
+    background: url('https://cdn.discordapp.com/attachments/738412588429213716/869129678613544960/image0.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;

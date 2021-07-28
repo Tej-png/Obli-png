@@ -2,6 +2,7 @@ import React from 'react';
 import './HeroSection.css';
 import './App.css';
 import { Button } from './Button';
+import { Link } from 'react-router-dom';
 
 // import  Images from './Carousel'
 
@@ -13,7 +14,7 @@ function HeroSection(){
             <p>What are you waiting for?</p>
             <div>
                 <Button className="hero-btns" buttonStyle="hero-btns btn--outline" buttonSize="btn--large">
-                    Arts
+                    <Link to="/arts" style={{textDecoration:'none',color:'black'}}>Arts</Link>
                 </Button>
                 <Button className="hero-btns" buttonStyle="hero-btns btn--primary" buttonSize="btn--large">
                     Contact
